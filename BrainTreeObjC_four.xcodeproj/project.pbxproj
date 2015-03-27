@@ -14,6 +14,11 @@
 		2B34048B1AC4E149009F430F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B34048A1AC4E149009F430F /* Images.xcassets */; };
 		2B34048E1AC4E149009F430F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B34048C1AC4E149009F430F /* LaunchScreen.xib */; };
 		2B34049A1AC4E149009F430F /* BrainTreeObjC_fourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3404991AC4E149009F430F /* BrainTreeObjC_fourTests.m */; };
+		2B7D8FC21AC4E29C00A42527 /* Braintree.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7D8FC11AC4E29C00A42527 /* Braintree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B7D8FC81AC4E29C00A42527 /* Braintree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7D8FBD1AC4E29C00A42527 /* Braintree.framework */; };
+		2B7D8FD11AC4E29C00A42527 /* BraintreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D8FD01AC4E29C00A42527 /* BraintreeTests.m */; };
+		2B7D8FD41AC4E29C00A42527 /* Braintree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7D8FBD1AC4E29C00A42527 /* Braintree.framework */; };
+		2B7D8FD51AC4E29C00A42527 /* Braintree.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7D8FBD1AC4E29C00A42527 /* Braintree.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +29,42 @@
 			remoteGlobalIDString = 2B3404791AC4E149009F430F;
 			remoteInfo = BrainTreeObjC_four;
 		};
+		2B7D8FC91AC4E29C00A42527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3404721AC4E149009F430F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7D8FBC1AC4E29C00A42527;
+			remoteInfo = Braintree;
+		};
+		2B7D8FCB1AC4E29C00A42527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3404721AC4E149009F430F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B3404791AC4E149009F430F;
+			remoteInfo = BrainTreeObjC_four;
+		};
+		2B7D8FD21AC4E29C00A42527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3404721AC4E149009F430F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7D8FBC1AC4E29C00A42527;
+			remoteInfo = Braintree;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B7D8FDB1AC4E29C00A42527 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B7D8FD51AC4E29C00A42527 /* Braintree.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2B34047A1AC4E149009F430F /* BrainTreeObjC_four.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTreeObjC_four.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +80,12 @@
 		2B3404931AC4E149009F430F /* BrainTreeObjC_fourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTreeObjC_fourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3404981AC4E149009F430F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B3404991AC4E149009F430F /* BrainTreeObjC_fourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrainTreeObjC_fourTests.m; sourceTree = "<group>"; };
+		2B7D8FBD1AC4E29C00A42527 /* Braintree.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Braintree.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7D8FC01AC4E29C00A42527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7D8FC11AC4E29C00A42527 /* Braintree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Braintree.h; sourceTree = "<group>"; };
+		2B7D8FC71AC4E29C00A42527 /* BraintreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraintreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7D8FCF1AC4E29C00A42527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B7D8FD01AC4E29C00A42527 /* BraintreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BraintreeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7D8FD41AC4E29C00A42527 /* Braintree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +101,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D8FB91AC4E29C00A42527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D8FC41AC4E29C00A42527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7D8FC81AC4E29C00A42527 /* Braintree.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +127,8 @@
 			children = (
 				2B34047C1AC4E149009F430F /* BrainTreeObjC_four */,
 				2B3404961AC4E149009F430F /* BrainTreeObjC_fourTests */,
+				2B7D8FBE1AC4E29C00A42527 /* Braintree */,
+				2B7D8FCD1AC4E29C00A42527 /* BraintreeTests */,
 				2B34047B1AC4E149009F430F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +138,8 @@
 			children = (
 				2B34047A1AC4E149009F430F /* BrainTreeObjC_four.app */,
 				2B3404931AC4E149009F430F /* BrainTreeObjC_fourTests.xctest */,
+				2B7D8FBD1AC4E29C00A42527 /* Braintree.framework */,
+				2B7D8FC71AC4E29C00A42527 /* BraintreeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +185,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2B7D8FBE1AC4E29C00A42527 /* Braintree */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D8FC11AC4E29C00A42527 /* Braintree.h */,
+				2B7D8FBF1AC4E29C00A42527 /* Supporting Files */,
+			);
+			path = Braintree;
+			sourceTree = "<group>";
+		};
+		2B7D8FBF1AC4E29C00A42527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D8FC01AC4E29C00A42527 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B7D8FCD1AC4E29C00A42527 /* BraintreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D8FD01AC4E29C00A42527 /* BraintreeTests.m */,
+				2B7D8FCE1AC4E29C00A42527 /* Supporting Files */,
+			);
+			path = BraintreeTests;
+			sourceTree = "<group>";
+		};
+		2B7D8FCE1AC4E29C00A42527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D8FCF1AC4E29C00A42527 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B7D8FBA1AC4E29C00A42527 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7D8FC21AC4E29C00A42527 /* Braintree.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2B3404791AC4E149009F430F /* BrainTreeObjC_four */ = {
@@ -129,10 +240,12 @@
 				2B3404761AC4E149009F430F /* Sources */,
 				2B3404771AC4E149009F430F /* Frameworks */,
 				2B3404781AC4E149009F430F /* Resources */,
+				2B7D8FDB1AC4E29C00A42527 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2B7D8FD31AC4E29C00A42527 /* PBXTargetDependency */,
 			);
 			name = BrainTreeObjC_four;
 			productName = BrainTreeObjC_four;
@@ -157,6 +270,43 @@
 			productReference = 2B3404931AC4E149009F430F /* BrainTreeObjC_fourTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2B7D8FBC1AC4E29C00A42527 /* Braintree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7D8FDA1AC4E29C00A42527 /* Build configuration list for PBXNativeTarget "Braintree" */;
+			buildPhases = (
+				2B7D8FB81AC4E29C00A42527 /* Sources */,
+				2B7D8FB91AC4E29C00A42527 /* Frameworks */,
+				2B7D8FBA1AC4E29C00A42527 /* Headers */,
+				2B7D8FBB1AC4E29C00A42527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braintree;
+			productName = Braintree;
+			productReference = 2B7D8FBD1AC4E29C00A42527 /* Braintree.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B7D8FC61AC4E29C00A42527 /* BraintreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7D8FDC1AC4E29C00A42527 /* Build configuration list for PBXNativeTarget "BraintreeTests" */;
+			buildPhases = (
+				2B7D8FC31AC4E29C00A42527 /* Sources */,
+				2B7D8FC41AC4E29C00A42527 /* Frameworks */,
+				2B7D8FC51AC4E29C00A42527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7D8FCA1AC4E29C00A42527 /* PBXTargetDependency */,
+				2B7D8FCC1AC4E29C00A42527 /* PBXTargetDependency */,
+			);
+			name = BraintreeTests;
+			productName = BraintreeTests;
+			productReference = 2B7D8FC71AC4E29C00A42527 /* BraintreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +320,13 @@
 						CreatedOnToolsVersion = 6.1;
 					};
 					2B3404921AC4E149009F430F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 2B3404791AC4E149009F430F;
+					};
+					2B7D8FBC1AC4E29C00A42527 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					2B7D8FC61AC4E29C00A42527 = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = 2B3404791AC4E149009F430F;
 					};
@@ -190,6 +347,8 @@
 			targets = (
 				2B3404791AC4E149009F430F /* BrainTreeObjC_four */,
 				2B3404921AC4E149009F430F /* BrainTreeObjC_fourTests */,
+				2B7D8FBC1AC4E29C00A42527 /* Braintree */,
+				2B7D8FC61AC4E29C00A42527 /* BraintreeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +365,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2B3404911AC4E149009F430F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D8FBB1AC4E29C00A42527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D8FC51AC4E29C00A42527 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,6 +406,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B7D8FB81AC4E29C00A42527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7D8FC31AC4E29C00A42527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7D8FD11AC4E29C00A42527 /* BraintreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +428,21 @@
 			isa = PBXTargetDependency;
 			target = 2B3404791AC4E149009F430F /* BrainTreeObjC_four */;
 			targetProxy = 2B3404941AC4E149009F430F /* PBXContainerItemProxy */;
+		};
+		2B7D8FCA1AC4E29C00A42527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7D8FBC1AC4E29C00A42527 /* Braintree */;
+			targetProxy = 2B7D8FC91AC4E29C00A42527 /* PBXContainerItemProxy */;
+		};
+		2B7D8FCC1AC4E29C00A42527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B3404791AC4E149009F430F /* BrainTreeObjC_four */;
+			targetProxy = 2B7D8FCB1AC4E29C00A42527 /* PBXContainerItemProxy */;
+		};
+		2B7D8FD31AC4E29C00A42527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7D8FBC1AC4E29C00A42527 /* Braintree */;
+			targetProxy = 2B7D8FD21AC4E29C00A42527 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,6 +598,78 @@
 			};
 			name = Release;
 		};
+		2B7D8FD61AC4E29C00A42527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Braintree/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B7D8FD71AC4E29C00A42527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Braintree/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B7D8FD81AC4E29C00A42527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BraintreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainTreeObjC_four.app/BrainTreeObjC_four";
+			};
+			name = Debug;
+		};
+		2B7D8FD91AC4E29C00A42527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BraintreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainTreeObjC_four.app/BrainTreeObjC_four";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,12 +689,30 @@
 				2B34049F1AC4E149009F430F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3404A01AC4E149009F430F /* Build configuration list for PBXNativeTarget "BrainTreeObjC_fourTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B3404A11AC4E149009F430F /* Debug */,
 				2B3404A21AC4E149009F430F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7D8FDA1AC4E29C00A42527 /* Build configuration list for PBXNativeTarget "Braintree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7D8FD61AC4E29C00A42527 /* Debug */,
+				2B7D8FD71AC4E29C00A42527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B7D8FDC1AC4E29C00A42527 /* Build configuration list for PBXNativeTarget "BraintreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7D8FD81AC4E29C00A42527 /* Debug */,
+				2B7D8FD91AC4E29C00A42527 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
