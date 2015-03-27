@@ -272,7 +272,6 @@
 		2B7D924B1AC4E2C900A42527 /* BTVenmoAppSwitchReturnURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B7D91451AC4E2C900A42527 /* BTVenmoAppSwitchReturnURL.h */; };
 		2B7D924C1AC4E2C900A42527 /* BTVenmoAppSwitchReturnURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D91461AC4E2C900A42527 /* BTVenmoAppSwitchReturnURL.m */; };
 		2BBA90F51AC4E5780035085C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA90F41AC4E5780035085C /* MessageUI.framework */; };
-		2BBA90F71AC4E5B10035085C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA90F61AC4E5B10035085C /* Foundation.framework */; };
 		2BBA90F91AC4E5CA0035085C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBA90F81AC4E5CA0035085C /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -664,7 +663,6 @@
 		2B7D91451AC4E2C900A42527 /* BTVenmoAppSwitchReturnURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVenmoAppSwitchReturnURL.h; sourceTree = "<group>"; };
 		2B7D91461AC4E2C900A42527 /* BTVenmoAppSwitchReturnURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVenmoAppSwitchReturnURL.m; sourceTree = "<group>"; };
 		2BBA90F41AC4E5780035085C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		2BBA90F61AC4E5B10035085C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2BBA90F81AC4E5CA0035085C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -689,7 +687,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBA90F91AC4E5CA0035085C /* MobileCoreServices.framework in Frameworks */,
-				2BBA90F71AC4E5B10035085C /* Foundation.framework in Frameworks */,
 				2BBA90F51AC4E5780035085C /* MessageUI.framework in Frameworks */,
 				2B7D91DA1AC4E2C900A42527 /* libPayPalMobile-BT.a in Frameworks */,
 				2B7D91B01AC4E2C900A42527 /* libDeviceCollectorLibrary.a in Frameworks */,
@@ -711,7 +708,6 @@
 			isa = PBXGroup;
 			children = (
 				2BBA90F81AC4E5CA0035085C /* MobileCoreServices.framework */,
-				2BBA90F61AC4E5B10035085C /* Foundation.framework */,
 				2BBA90F41AC4E5780035085C /* MessageUI.framework */,
 				2B34047C1AC4E149009F430F /* BrainTreeObjC_four */,
 				2B3404961AC4E149009F430F /* BrainTreeObjC_fourTests */,
