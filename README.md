@@ -1,4 +1,4 @@
-# Failed to import Braintree library
+# Error "use of undeclared identifier 'Braintree'"
 
 Xcode shows this build error after manually integrating Braintree into a new project. Braintree integration was done according to the [Manual Integration Without CocoaPods](https://github.com/braintree/braintree_ios/blob/master/Docs/Manual%20Integration.md) guide.
 
