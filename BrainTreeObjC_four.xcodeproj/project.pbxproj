@@ -2115,7 +2115,7 @@
 					"$(PROJECT_DIR)/Braintree/Braintree/PayPal/mSDK",
 				);
 				OTHER_LDFLAGS = (
-					"lc++",
+					"-lc++",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2142,7 +2142,7 @@
 					"$(PROJECT_DIR)/Braintree/Braintree/PayPal/mSDK",
 				);
 				OTHER_LDFLAGS = (
-					"lc++",
+					"-lc++",
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
