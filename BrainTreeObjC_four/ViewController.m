@@ -19,7 +19,6 @@
   [super viewDidLoad];
   
   Braintree *braintree = [Braintree braintreeWithClientToken:responseObject[@"client_token"]];
-  // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
