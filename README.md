@@ -13,7 +13,7 @@ The error is shown when `[Braintree braintreeWithClientToken` is called in the [
 
 ## Setup
 
-After cloning the repo pull the braintree_ios submodule by running this the project root directory.
+After cloning the repo pull the braintree_ios submodule by running this in the project root directory.
 
     git submodule init
     git submodule update
